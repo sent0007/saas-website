@@ -17,6 +17,13 @@ header {
   border-bottom: 1px solid #9a9a9a;
 }
 
+.container {
+  max-height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+
 div h1 {
   text-align: center;
   margin: .75rem 0;
@@ -26,7 +33,6 @@ div h1 {
 .nav {
   margin: 0;
   padding-bottom: 1em;
-  list-style-type: none;
 }
 
 ul li {
@@ -47,14 +53,19 @@ li a:hover {
 
 @media only screen and (min-width: 38em) {
 
-  div h1 {
+  div .logo {
     text-align: left;
     margin-left: 1em;
   }
 
   header nav ul {
-    text-align: left;
+    text-align: right;
     padding-bottom: 0;
   }
+
+  .logo-img {
+    max-width: 150px;
+    align-items: center;
+
 
 }
