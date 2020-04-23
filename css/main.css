@@ -17,12 +17,15 @@ body {
 
 }
 
-.content {
-
-
+.s-content1 {
+  display: flex;
 
 }
 
+.img-flex2 {
+  min-width: 25em;
+  display:
+}
 
 header {
   background-color: #ffffff;
@@ -69,6 +72,28 @@ li a:hover {
 
 }
 
+.btn {
+  background-color: #7CDDA3;
+  border-color: #7CDDA3;
+  color: #9a9a9a;
+}
+
+.btn-ghost {
+  background-color: transparent;
+}
+
+.btn-ghost:hover {
+  background-color: transparent;
+  color: #7CDDA3;
+  border-color: #7CDDA3;
+}
+
+.pricing {
+  border-color: #87ADDE;
+  display: block;
+  color: #87ADDE;
+}
+
 h2 {
   font-weight: 300;
 }
@@ -88,6 +113,19 @@ h2 {
   p {
     margin: 0 0 1.3rem;
   }
+
+  .s-content1 {
+    display: block;
+  }
+
+  .s-content2 {
+    display: block;
+  }
+
+  .s-content3 {
+    display: block;
+  }
+
 
 }
 
@@ -119,6 +157,26 @@ h2 {
     border-bottom: 1px solid #9a9a9a;
   }
 
+  .s-content1 {
+    display: flex;
+
+  }
+  .s-content2 {
+    display: flex;
+
+  }
+  .s-content3 {
+    display: flex;
+
+  }
+
+  .pricing {
+    border-color: #87ADDE;
+    display: inline-block;
+    color: #87ADDE;
+  }
+
+
 
 }
 
@@ -133,6 +191,8 @@ h2 {
   p {
     margin: 0 0 1.5rem;
   }
+
+
 
 }
 
