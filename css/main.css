@@ -94,6 +94,13 @@ li a:hover {
   color: #87ADDE;
 }
 
+.footer-button {
+  background-color: #7CDDA3;
+  border-color: #7CDDA3;
+  color: #ffffff;
+
+}
+
 h2 {
   font-weight: 300;
 }
@@ -101,6 +108,16 @@ h2 {
 .main-content {
   display: flex;
 }
+
+footer {
+  background-color: #607591;
+  color: #ffffff;
+}
+
+footer li {
+  color: #ffffff;
+}
+
 
 @media only screen and (min-width: 25em) {
 
@@ -176,7 +193,19 @@ h2 {
     color: #87ADDE;
   }
 
+  footer {
+    display: flex;
+  }
 
+  footer a {
+    color: #ffffff;
+  }
+
+
+
+  footer li {
+    display: block;
+  }
 
 }
 
